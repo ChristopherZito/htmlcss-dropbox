@@ -98,3 +98,44 @@ body {
 .fa-arrow-down {
     font-size: 30px;
 }
+
+/* main */
+
+
+/* footer */
+
+#foot {
+    background-color: black;
+    color: white;
+}
+
+.foot-colum {
+    float: left;
+    padding-right: 8%;
+    padding-top: 100px;
+}
+
+.foot-colum ul {
+    list-style-type: none;
+}
+
+.foot-colum h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.foot-colum li {
+    line-height: 30px;
+}
+
+#lenguage {
+    color: gray;
+    padding: 50px 0 40px;
+    border-top: gray 1px solid;
+    float: left;
+}
+
+#bug {
+    padding-bottom: 100px;
+}
