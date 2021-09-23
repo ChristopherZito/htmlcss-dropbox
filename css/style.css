@@ -10,7 +10,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.clearfix {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -21,7 +21,7 @@ body {
     background-color: blue;
     color: white;
     text-decoration: none;
-    padding: 5px 20px;
+    padding: 10px 20px;
 }
 
 .center {
@@ -62,6 +62,8 @@ body {
     float: left;
 }
 
+
+
 /* jumbotron */
 
 #jumbo {
@@ -82,17 +84,17 @@ body {
     margin-bottom: 40px;
 }
 
-.left {
+#left {
     float: left;
     max-width: 28%;
 }
 
-.left p{
+#left p{
     padding: 0 0 20px;
     line-height: 20px;
 }
 
-.left h2 {
+#left h2 {
     padding: 20px 0 30px;
 }
 .fa-arrow-down {
@@ -100,14 +102,81 @@ body {
 }
 
 /* main */
+.middle-main {
+    width: 70%;
+    margin: auto;
+}
 
 
+
+
+/* sezione1 */
+#plane-cost h1 {
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.pillar {
+    float: left;
+    width: calc(90% / 3);
+    border:1px solid gray;
+    margin-top: 20px;
+
+    /* debug */
+    /* background-color: green;
+    height: 100px; */
+}
+
+.p-center {
+    margin: 20px 30px 0 30px;
+}
+
+.fa-user {
+    font-size: 20px;
+}
+.plane {
+    text-align:center;
+    padding: 10px 0;
+    border: grey 1px solid;
+
+}
+.p-inside {
+    padding: 20px 10px 200px 20px;
+    line-height: 50px;
+}
+
+.p-inside hr {
+    padding-right: 100px;
+    display: inline-block;
+    border: 0.5px solid gray
+}
+
+.fa-check {
+    color: blue;
+}
+
+.p-inside ul {
+    list-style-type: none;
+}
+
+.p-inside h2 {
+    font-weight: bolder;
+}
+.p-inside-cost {
+    font-weight: bolder;
+    font-size: 20px;
+} 
+
+.space {
+    margin-top: 20px;
+}
 /* footer */
 
 #foot {
     background-color: black;
     color: white;
 }
+
 
 .foot-colum {
     float: left;
