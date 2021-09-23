@@ -1,3 +1,5 @@
+/* generali */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,3 +9,51 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* utilizzati in più occasioni */
+.button {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+}
+
+/* header */
+
+/* navigation bar */
+#top-bar {
+    position: sticky;
+    height: 50px;
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.logo {
+    float: left;
+}
+
+#top-bar a{
+    float: right;
+}
+
+#top-bar li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#ul-left{
+    float: left;    
+}
+
+#ul-right {
+    margin-left: 30%;
+    float: left;
+}
+
