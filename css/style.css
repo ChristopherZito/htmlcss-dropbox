@@ -253,9 +253,78 @@ body {
     font-weight: 600;
 }
 
+/* #s5 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    line-height: 50px;
+}
+
+#s5 h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#s5-team {
+    float: left;
+    width: calc(100% / 3);
+    background-color: lightgray;
+    height: 400px;
+}
+
+.s5-img {
+    float: left;
+    width: 50%;
+}
+
+.s5-img img {
+    height: 100px;
+    width: 50%;
+    padding: 30px  20px;
+} */
 
 
+#s6 {
+    background-color: #b4d0e7
+    ;
+}
 
+#s6 div {
+    padding: 100px 0 200px ;
+}
+
+#s6 h1 {
+    float: left;
+    font-size: 40px;
+    color:#61082b;
+    
+}
+
+#s6 a {
+    float: right;
+    width: 30%;
+    border: none;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+#s7 {
+    margin: 100px 0;
+}
+
+#s7 h1 {
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+#s7 p {
+    padding: 50px 0;
+    border-top: gray 1px solid;
+    border-bottom: gray 1px solid;
+}
+
+#s7 i{
+    float: right;
+}
 
 
 /* footer */
