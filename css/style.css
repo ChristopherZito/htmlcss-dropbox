@@ -29,12 +29,17 @@ body {
     margin: auto;
 }
 
+.b-alternative {
+    color: black;
+    background-color: white;
+    border: 1px solid grey;
+}
+
 /* header */
 
 /* navigation bar */
 #top-bar {
     position: sticky;
-    height: 50px;
     width: 90%;
     margin: auto;
     padding: 20px 0;
@@ -143,6 +148,7 @@ body {
 .p-inside {
     padding: 20px 10px 200px 20px;
     line-height: 50px;
+    max-height: 1100px;
 }
 
 .p-inside hr {
@@ -166,10 +172,65 @@ body {
     font-weight: bolder;
     font-size: 20px;
 } 
+.p-inside p{
+    font-size: 15px;
+}
 
 .space {
     margin-top: 20px;
 }
+
+/* sezione 2 */
+#s2 {
+    border: gray 1px solid;
+    margin-top: 50px;
+}
+
+#s2-up {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+#s2-left {
+    float: left;
+    line-height: 40px;
+    padding: 20px 0 20px 20px;
+}
+
+#s2-right {
+    float: right;
+    padding: 40px 10px ;
+}
+
+#s3 {
+    margin-top: 50px;
+}
+
+#s3 img {
+    float: left;
+    width: 55%;
+
+}
+
+
+#s3-text {
+    float: right;
+    width: 45%;
+    padding-left: 10%;
+    line-height: 30px;
+}
+
+#s3-text p{
+    margin: 20px 0;
+}
+
+
+
+
+
+
+
 /* footer */
 
 #foot {
