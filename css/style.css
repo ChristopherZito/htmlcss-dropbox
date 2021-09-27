@@ -40,15 +40,15 @@ body {
 /* navigation bar */
 #top-bar {
     position: sticky;
-    top: 0px;
-    margin: auto;
+    top: 0;
+    left: 0;
     z-index: 99;
     background-color: white;
-    padding: 15px 0;
+    padding: 20px 10px;
+    border-bottom: 1px solid black;
 }
 
 #top-bar a {
-    float: right;
     text-decoration: none;
 }
 
@@ -57,6 +57,7 @@ body {
 }
 
 #top-bar li {
+    vertical-align: middle;
     display: inline-block;
     margin: 0 10px;
 }
@@ -74,9 +75,9 @@ body {
 #jumbo {
     background-color: lightblue;
     padding: 50px 0;
+    max-height: 700px;
+    margin-bottom: 200px;
 }
-
-
 
 #jumbo img {
     float: right;
@@ -125,6 +126,7 @@ body {
     width: calc(90% / 3);
     border:1px solid gray;
     margin-top: 20px;
+    min-height: 1100px;
 }
 
 .p-center {
@@ -134,18 +136,23 @@ body {
 .fa-user {
     font-size: 20px;
 }
+.far,.fas{
+    margin-left: -20px;
+}
+
+.t-small{
+    font-size: 15px;
+}
 
 .plane {
     text-align:center;
     padding: 10px 0;
     border: grey 1px solid;
-
 }
 
 .p-inside {
     padding: 20px 10px 200px 20px;
-    line-height: 50px;
-    min-height: 1100px;
+    line-height: 60px;
 }
 
 .p-inside hr {
@@ -156,10 +163,13 @@ body {
 
 .fa-check {
     color: blue;
+    margin-left: -20px;
 }
 
 .p-inside ul {
     list-style-type: none;
+    line-height: 35px;
+    padding-left: 20px;
 }
 
 .p-inside h2 {
@@ -173,6 +183,7 @@ body {
 
 .p-inside p {
     font-size: 15px;
+    line-height: 30px;
 }
 
 .space {
@@ -268,11 +279,16 @@ body {
     background-color: #f5f5f5;
     float: left;
     width: 41%;
-    padding: 50px;
+    padding: 30px;
     min-height: 500px;
     max-height: 500px;
     line-height: normal;
     font-weight: 600;
+    overflow: hidden;
+}
+
+#s5-text:hover {
+    overflow:scroll;
 }
 
 .s5-img-inside-text {
@@ -297,6 +313,8 @@ body {
     width: 280px;
     height: 250px;
     padding: 60px;
+    filter: invert(1);
+    width: 50%;
 }
 
 #img-1 {
@@ -400,7 +418,6 @@ body {
 #s7 i {
     float: right;
 }
-
 
 /* FOOTER */
 #foot {
