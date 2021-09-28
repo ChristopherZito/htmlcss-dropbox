@@ -45,7 +45,10 @@ body {
     z-index: 99;
     background-color: white;
     padding: 20px 10px;
-    border-bottom: 1px solid black;
+}
+
+.underline {
+    padding-bottom: 25px;
 }
 
 #top-bar a {
@@ -68,6 +71,32 @@ body {
 
 #ul-right {
     float: right;
+}
+/* sotto menu */
+#sub-menu {
+    position: relative;
+}
+#sup-under-menu{
+    display: none;
+    margin: 0;
+    position: absolute;
+    top: 45px;
+}
+
+#sup-under-menu li {
+    background-color: cornflowerblue;
+    padding: 8px 10px;
+    list-style-type: none;
+    display: block;
+    width: 200px;
+}
+
+#sup-under-menu li:hover {
+    background-color: rgb(100, 207, 237);
+}
+
+#sub-menu:hover #sup-under-menu{
+    display: block;
 }
 
 /* jumbotron */
@@ -105,7 +134,16 @@ body {
 }
 
 .fa-arrow-down {
-    font-size: 30px;
+    font-size: 50px;
+}
+
+#arrow-down {
+    margin-left: 0;
+    color: black;
+}
+
+.fa-arrow-down:hover {
+    cursor: pointer;
 }
 
 /* MAIN */
@@ -401,7 +439,7 @@ body {
 
 /* SEZIONE 7 */
 #s7 {
-    margin: 100px 0;
+    margin: 50px 0;
 }
 
 #s7 h1 {
@@ -409,15 +447,31 @@ body {
     font-size: 50px;
 }
 
-#s7 p {
+/* domande */
+.s7-quest {
     padding: 50px 0;
     border-top: gray 1px solid;
     border-bottom: gray 1px solid;
+
+    /* hidden part */
+    height: 0;
+    overflow: hidden;
+}
+
+.s7-quest p {
+    margin-top: 40px;
+}
+
+.s7-quest:hover {
+    overflow: visible;
+    height: max-content;
 }
 
 #s7 i {
     float: right;
 }
+
+
 
 /* FOOTER */
 #foot {
@@ -441,17 +495,29 @@ body {
     margin-bottom: 20px;
 }
 
+#foot-dimension {
+    height: auto;
+}
+
 .foot-colum li {
     line-height: 30px;
+}
+
+.foot-colum li:hover {
+    cursor: pointer;
+    text-decoration: underline white;
+}
+
+#lenguage hr{
+    width: 10%;
+    margin-bottom: 50px;
 }
 
 #lenguage {
     color: gray;
     padding: 50px 0 40px;
-    border-top: gray 1px solid;
-    float: left;
 }
 
-#bug {
-    padding-bottom: 100px;
+#foot .fas{
+    margin: 0;
 }

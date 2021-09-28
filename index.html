@@ -28,17 +28,17 @@
                     </span>
                 </li>
                 <li>
-                    <a href="#">
+                    <a class="underline" href="#">
                         Perch&egrave; Dropbox?
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a class="underline" href="#">
                     Funzioni   
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a class="underline" href="#">
                     Piani e prezzi                        
                     </a>
                 </li>
@@ -46,17 +46,32 @@
             <!-- SX Menù a tendina -->
             <ul id="ul-right">
                 <li>
-                    <a href="#">
-                    Supporto                        
-                    </a>
+                    <div id="sub-menu">
+                        <a  class="underline" href="#">
+                            Supporto                        
+                        </a>
+                        <ul id="sup-under-menu">
+                            <li>
+                                <a href="#s2">
+                                    Contatti
+                                </a>                                
+                            </li>
+                            <li>
+                                <a href="#s7">
+                                    Domande frequenti
+                                </a>                                
+                            </li>
+                        </ul>
+                    </div>
+                    
                 </li>
                 <li>
-                    <a href="#">
+                    <a class="underline" href="#">
                     Contatta l'ufficio vendite
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a class="underline" href="#">
                     Accedi                       
                     </a>
                 </li>
@@ -86,8 +101,11 @@
                     <a class="button" href=" à">Inizia la tua prova gratuita</a>
                     <h2>
                         Annulla in qualsiasi momento
-                    </h2>
-                    <i class="fas fa-arrow-down"></i>
+                    </h2>        
+                        <a href="#plane-cost">
+                            <i id="arrow-down" class="fas fa-arrow-down"></i>
+                        </a>
+                        
                 </div>
                     
                 <!-- lato destro -->
@@ -99,8 +117,8 @@
         </section>
             
     </header>
-<!-- page -->        
     <main >
+        <!-- page -->
         <section >
 <!-- sezione 1 /Piano Dropxox-->            
             <section class="middle-main" id="plane-cost">
@@ -627,23 +645,35 @@
                     </div>  
                     <!-- 4 righe di domanda con icona -->
                     <div> 
-                        <p>
-                            Qual'&egrave; la differenza tra Dropboc Buisness Dtandard e Dropbox Buisness Advanced
-                            <i class="fas fa-chevron-down"></i>                        
-                        </p>
+                        <div class="s7-quest">
+                            Qual'&egrave; la differenza tra Dropbox Buisness Standard e Dropbox Buisness Advanced
+                            <i class="fas fa-chevron-down"></i>    
+                            <p>
+                                Il piano Standard fornisce ai team 5 TB di spazio di archiviazione e semplici strumenti di condivisione e collaborazione. Per i team che hanno bisogno di più spazio di archiviazione e sicurezza, il piano Advanced offre tutto lo spazio necessario al team, oltre a sofisticate funzioni di amministrazione, controllo, integrazione e sicurezza. Per ulteriori informazioni sui nostri piani, consulta questa pagina.
+                            </p>                    
+                        </div>
                         
-                        <p>
-                            Qual'&egrave; la differenza tra Dropboc Buisness Dtandard e Dropbox Buisness Advanced
+                        <div class="s7-quest">
+                            Qual'&egrave; la differenza tra Dropbox Buisness Standard e Dropbox Buisness Advanced
                             <i class="fas fa-chevron-down"></i>
-                        </p>
-                        <p>
-                            Qual'&egrave; la differenza tra Dropboc Buisness Dtandard e Dropbox Buisness Advanced
+                            <p>
+                                Il piano Standard fornisce ai team 5 TB di spazio di archiviazione e semplici strumenti di condivisione e collaborazione. Per i team che hanno bisogno di più spazio di archiviazione e sicurezza, il piano Advanced offre tutto lo spazio necessario al team, oltre a sofisticate funzioni di amministrazione, controllo, integrazione e sicurezza. Per ulteriori informazioni sui nostri piani, consulta questa pagina.
+                            </p>
+                        </div>
+                        <div class="s7-quest">
+                            Qual'&egrave; la differenza tra Dropbox Buisness Standard e Dropbox Buisness Advanced
                             <i class="fas fa-chevron-down"></i>
-                        </p>
-                        <p>
-                            Qual'&egrave; la differenza tra Dropboc Buisness Dtandard e Dropbox Buisness Advanced
+                            <p>
+                                Il piano Standard fornisce ai team 5 TB di spazio di archiviazione e semplici strumenti di condivisione e collaborazione. Per i team che hanno bisogno di più spazio di archiviazione e sicurezza, il piano Advanced offre tutto lo spazio necessario al team, oltre a sofisticate funzioni di amministrazione, controllo, integrazione e sicurezza. Per ulteriori informazioni sui nostri piani, consulta questa pagina.
+                            </p>
+                        </div>
+                        <div class="s7-quest">
+                            Qual'&egrave; la differenza tra Dropbox Buisness Standard e Dropbox Buisness Advanced
                             <i class="fas fa-chevron-down"></i>
-                        </p>
+                            <p>
+                                Il piano Standard fornisce ai team 5 TB di spazio di archiviazione e semplici strumenti di condivisione e collaborazione. Per i team che hanno bisogno di più spazio di archiviazione e sicurezza, il piano Advanced offre tutto lo spazio necessario al team, oltre a sofisticate funzioni di amministrazione, controllo, integrazione e sicurezza. Per ulteriori informazioni sui nostri piani, consulta questa pagina.
+                            </p>
+                        </div>
                     </div>
                    </div>
                 </div>  
@@ -655,10 +685,11 @@
 <!-- footer -->    
     <footer id="foot">
         
-        <section class="center clearfix">
+        <section class="center">
             
             <!-- top foot -->
-            <section >
+            <!-- 5 colonne -->
+            <div id="foot-dimension" class="clearfix" >
                 <div class="foot-colum">
                     <h3>
                         Dropbox
@@ -747,7 +778,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="foot-colum" id="bug">
+                <div class="foot-colum">
                     <h3>
                         Community
                     </h3>
@@ -763,11 +794,12 @@
                         </li>
                     </ul>
                 </div>
-            </section>
-            <!-- 5 colonne -->
+            </div>
+            
             <!-- bottom foot -->
-            <div id="lenguage">
+            <div id="lenguage" class="clearfix">
              <!-- lingua -->  
+             <hr>
              <i class="fas fa-globe-americas"></i>
              <span>
                  italiano 
